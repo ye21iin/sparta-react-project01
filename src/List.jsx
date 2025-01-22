@@ -6,9 +6,12 @@ const List = ({ records }) => {
       .sort((a, b) => b.gold - a.gold) // 금메달 기준 내림차순 정렬
       .map((r) => {
         return (
-          <p key={r.id}>
-            {r.country} {Number(r.gold)} {Number(r.silver)} {Number(r.bronze)}
-          </p>
+          <div>
+            <p key={r.id}>
+              {r.country} {Number(r.gold)} {Number(r.silver)} {Number(r.bronze)}
+            </p>
+            <button>삭제</button>
+          </div>
         );
       })
   );
