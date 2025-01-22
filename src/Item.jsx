@@ -25,6 +25,25 @@ const Item = ({ records, setRecords }) => {
     setSilver(0);
     setBronze(0);
   };
+  // func: 업데이트
+  const updateRecord = (c, g, s, b) => {
+    if (!records.some((r) => r.country === c)) {
+      alert("입력한 국가명이 기존 리스트에 존재하지 않습니다!");
+      return;
+    }
+    const newRecord = records.map((r) => {
+      if (r.country === c) {
+        return { ...r, gold: g, silver: s, bronze: b };
+      }
+      return r;
+    });
+
+    setRecords(newRecord);
+    setCountry("");
+    setGold(0);
+    setSilver(0);
+    setBronze(0);
+  };
   return {
     country,
     setCountry,
@@ -35,6 +54,7 @@ const Item = ({ records, setRecords }) => {
     bronze,
     setBronze,
     addRecord,
+    updateRecord,
   };
 };
 

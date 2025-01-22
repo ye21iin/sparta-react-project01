@@ -12,6 +12,7 @@ const Form = ({ records, setRecords }) => {
     bronze,
     setBronze,
     addRecord,
+    updateRecord,
   } = Item({ records, setRecords });
 
   // records 상태가 변경될 때마다 로그 출력
@@ -60,7 +61,7 @@ const Form = ({ records, setRecords }) => {
         <button
           type="button" // submit 이벤트와 충돌 방지
           className="udBtn"
-          //   onClick={updateRecord}
+          onClick={() => updateRecord(country, gold, silver, bronze)}
           name="ud"
         >
           업데이트
