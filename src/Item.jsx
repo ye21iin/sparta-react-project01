@@ -44,6 +44,7 @@ const Item = ({ records, setRecords }) => {
     setSilver(0);
     setBronze(0);
   };
+
   return {
     country,
     setCountry,

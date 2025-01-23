@@ -1,11 +1,16 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  background-color: #f4f4f9;
+  border-radius: 15px;
+  box-shadow: 4px 4px 5px #0000001a;
 }
 
 .form {
+  background-color: #fff;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1000px;
+
   display: flex;
   gap: 5px;
   justify-content: center;
@@ -18,17 +23,17 @@
 .formBtns {
   display: flex;
   gap: 3px;
-
-  background-color: green; /* 버튼영역 확인용 */
 }
 
 .addBtn,
 .udBtn {
   height: 40px;
-  margin-top: 32%;
+  margin-top: 36%;
 
-  color: #2b826b;
-  background-color: #f6eee8;
+  color: #333;
+  background-color: #fc0;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .card {
