@@ -18,6 +18,10 @@ const Item = ({ records, setRecords }) => {
       alert("메달 개수는 0 이상의 값만 가능합니다.");
       return;
     }
+    if (records.some((r) => r.country === country)) {
+      alert("이미 리스트에 있는 국가명입니다.");
+      return;
+    }
 
     setRecords([...records, { id: Date.now(), country, gold, silver, bronze }]);
     setCountry("");
