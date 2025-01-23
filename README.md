@@ -1,11 +1,24 @@
 # 🥇 2024 PARIS OLYMPIC MEDAL TRACKER
 
-## 🔁 프로젝트 구조
+## 🔗 프로젝트 구조
 
 이 프로젝트는 2024 파리 올림픽 메달 기록을 추적하는 React 애플리케이션입니다.
 사용자는 국가별로 금, 은, 동메달 수를 추가하고 업데이트할 수 있습니다.
 
-### Basic CRUD Features
+/SPARTA-REACT-PROJECT01
+├── .gitignore
+├── index.html <!-- 메인 HTML -->
+├── README.md <!-- 프로젝트 설명 -->
+└── src
+├── App.jsx <!-- 메인 로직 -->
+├── Form.jsx <!-- 폼 관련 기능 -->
+├── List.jsx <!-- 리스트 관련 기능 -->
+├── Item.jsx <!-- State 관련 기능 -->
+├── main.jsx <!-- 진입점 -->
+├── App.css <!-- 주요 디자인 정의 -->
+└── index.css <!-- 전역 스타일 정의 -->
+
+### 📌 Basic CRUD Features
 
 - CREATE : 제출 버튼 클릭 시 새로운 국가와 메달 정보를 리스트에 추가하고 화면에 표시.
 - READ : 리스트에 표시된 국가별 메달 집계를 확인할 수 있도록 UI에 반영.
