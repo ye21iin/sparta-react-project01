@@ -48,7 +48,10 @@
 
 **개발 과정이 궁금하시다면 👇🏻👇🏻**
 
-- 1. GitHub Issue Handling
-  - [[Git] HEAD 분리됨 - checkout하고 커밋했을 때 (+커밋 수정방법)](https://velog.io/@ye21iin/Git-HEAD-%EB%B6%84%EB%A6%AC%EB%90%A8-checkout%ED%95%98%EA%B3%A0-%EC%BB%A4%EB%B0%8B%ED%96%88%EC%9D%84-%EB%95%8C-%EC%BB%A4%EB%B0%8B-%EC%88%98%EC%A0%95%EB%B0%A9%EB%B2%95)
-- 2. Edit UI with CSS
-  - [[React 입문/프로젝트 회고] 버튼이 왜 여기 달렸죠?](https://velog.io/@ye21iin/React-%EC%9E%85%EB%AC%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0)
+1. GitHub Issue Handling
+
+- [[Git] HEAD 분리됨 - checkout하고 커밋했을 때 (+커밋 수정방법)](https://velog.io/@ye21iin/Git-HEAD-%EB%B6%84%EB%A6%AC%EB%90%A8-checkout%ED%95%98%EA%B3%A0-%EC%BB%A4%EB%B0%8B%ED%96%88%EC%9D%84-%EB%95%8C-%EC%BB%A4%EB%B0%8B-%EC%88%98%EC%A0%95%EB%B0%A9%EB%B2%95)
+
+2. Edit UI with CSS
+
+- [[React 입문/프로젝트 회고] 버튼이 왜 여기 달렸죠?](https://velog.io/@ye21iin/React-%EC%9E%85%EB%AC%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0)
