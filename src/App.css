@@ -45,6 +45,10 @@
   font-weight: 700;
 }
 
+.addBtn:hover,
+.udBtn:hover {
+  background-color: #50827e;
+}
 .udBtn {
   background-color: #889c9b;
 }
